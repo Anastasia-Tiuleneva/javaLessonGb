@@ -18,7 +18,7 @@ public class HomeWorkApp3 {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = random.nextInt(2);
         }
-        System.out.println(Arrays.toString(arr)); // для проверик
+        System.out.println(Arrays.toString(arr)); // для проверки
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == 0) {
                 arr[i] = 1;
@@ -36,18 +36,18 @@ public class HomeWorkApp3 {
             arr[i] = +value;
             value = value + 1;
         }
-        System.out.println(Arrays.toString(arr)); // для проверик
+        System.out.println(Arrays.toString(arr)); // для проверки
     }
 
     public static void arrTwo() {
         int arr[] = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        System.out.println(Arrays.toString(arr)); // для проверик
+        System.out.println(Arrays.toString(arr)); // для проверки
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] < 6) {
                 arr[i] = arr[i] * 2;
             }
         }
-        System.out.println(Arrays.toString(arr)); // для проверик
+        System.out.println(Arrays.toString(arr)); // для проверки
     }
 
     public static void arrBox(int b) {
